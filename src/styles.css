@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #c9885e;
+  --secondary-color: #f0cfac;
+  --text-color: #734c21;
+  --link-color: #9b6c42;
+}
+
+body {
+  background: var(--primary-color);
+}
+
+h1,
+h2,
+p,
+ul,
+li {
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 800px;
+  background-color: var(--secondary-color);
+  margin: 60px auto;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.croissant-title {
+  text-align: center;
+}
+
+.croissant-img {
+  text-align: center;
+}
+
+.croissant-element {
+  border-radius: 5px;
+}
+
+.navigation-links {
+  text-align: center;
+  font-size: 28px;
+  margin: 25px;
+}
+p {
+  font-size: 24px;
+}
+
+a {
+  padding: 0px;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--link-color);
+  margin: 10px;
+}
+
+a:visited {
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.bakery-link {
+  background-color: var(--secondary-color);
+  margin: 0px;
+  padding: 0px;
+}
+
+.bakery-link:hover {
+  color: var(--link-color);
+}
+.return-home {
+  text-align: center;
+  font-size: 28px;
+  margin: 25px;
+}
